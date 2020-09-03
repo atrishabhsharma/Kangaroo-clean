@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'Screens/Location.dart';
 import 'Screens/Login.dart';
 import 'Screens/Payment.dart';
-import 'Screens/Profile.dart';
-import 'Screens/Request.dart';
-import 'Screens/Service_contact.dart';
+import 'Screens/pageview.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,9 +19,7 @@ class MyApp extends StatelessWidget {
         '/login': (_) => Login(),
         '/Payment': (_) => Payment(),
         '/Location': (_) => Location(),
-        '/RequestService': (_) => Request(),
-        '/Profile': (_) => Profile(),
-        '/ServiceContact': (_) => ServicesContact(),
+        '/PageViewNavi': (_) => PageViewNavi(),
       },
     );
   }

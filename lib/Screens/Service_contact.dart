@@ -1,4 +1,3 @@
-import 'package:Kangaroo/widgets/Navigatorar.dart';
 import 'package:Kangaroo/widgets/service_list.dart';
 import 'package:flutter/material.dart';
 
@@ -16,50 +15,47 @@ class ServicesContact extends StatelessWidget {
               fontSize: 34, fontWeight: FontWeight.bold, color: Colors.black),
         ),
       ),
-      body: Expanded(
-        child: Container(
-          child: ListView(
-            children: [
-              ServiceList(
-                  title: 'ABC Cleaners',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Drying',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'simply Cleaners  ',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Drying',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'Landary  ',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Drying',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'Moosewala  ',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Done',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'Ami virk clean  ',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Drying',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'ABC Cleaners  ',
-                  dayntime: 'May 2nd, 2020 at 2:00 PM',
-                  status: 'Drying',
-                  cost: 14.56),
-              ServiceList(
-                  title: 'mike Cleans  ',
-                  dayntime: 'May 23nd, 2020 at 4:00 PM',
-                  status: 'Done',
-                  cost: 14.56),
-            ],
-          ),
+      body: Container(
+        child: ListView(
+          children: [
+            ServiceList(
+                title: 'ABC Cleaners',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Drying',
+                cost: 14.56),
+            ServiceList(
+                title: 'simply Cleaners  ',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Drying',
+                cost: 14.56),
+            ServiceList(
+                title: 'Landary  ',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Drying',
+                cost: 14.56),
+            ServiceList(
+                title: 'Moosewala  ',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Done',
+                cost: 14.56),
+            ServiceList(
+                title: 'Ami virk clean  ',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Drying',
+                cost: 14.56),
+            ServiceList(
+                title: 'ABC Cleaners  ',
+                dayntime: 'May 2nd, 2020 at 2:00 PM',
+                status: 'Drying',
+                cost: 14.56),
+            ServiceList(
+                title: 'mike Cleans  ',
+                dayntime: 'May 23nd, 2020 at 4:00 PM',
+                status: 'Done',
+                cost: 14.56),
+          ],
         ),
       ),
-      bottomNavigationBar: AppNavigationBar(),
     );
   }
 }
